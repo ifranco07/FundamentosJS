@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Proyectos JavaScript</title>
+    <style>
+        /* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body */
+  body {
+    font-family: sans-serif;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    background-color: #2266aa;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 36px;
+  }
+  
+  /* Navigation */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    box-shadow: 20px 10px 5px rgba(81, 79, 79, 0.2);
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 10;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 14.5px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    background-color: #2266aa;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #3399ee;
+  }
+  
+
+  /* Media queries */
+  @media screen and (max-width: 768px) {
+    header {
+      font-size: 24px;
+    }
+  
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  
+    nav ul {
+      width: 100%;
+    }
+  
+    nav li {
+      display: block;
+      margin:  auto;
+      width: 100%;
+      text-align: center;
+    }
+  
+    nav a {
+      width: 100%;
+    }
+  
+    main img {
+      width: 200%;
+      height: 100%;
+    }
+  }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mis Proyectos JavaScript</h1>
+        <h1>Ignacio Franco</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li> <a href="./apisJS/RickAndMorty/index.html">Rick and Morty</a></li>
+            <li><a href="./apisJS/APIClima/index.html">Api de Clima</a></li>
+            <li><a href="./apisJS/APIClima/Canvas/app.html">Canvas</a></li>
+            <li><a href="./apisJS/APIClima/Canvas/index.html">Creeper Bomnito</a></li>
+            <li><a href="./apisJS/Animaciones/rebota.html">Rebota</a></li>
+            <li><a href="./apisJS/Animaciones/moves.html">Moves</a></li>
+            <li><a href="./apisJS/Animaciones/Snake.html">Snake</a></li>
+            <li><a href="./FundamentosJS/dom/coloresbg.html">Colores RGB</a></li>
+            <li><a href="./FundamentosJS/dom/coloresinput.html">Colores Random</a></li>
+            <li><a href="./FundamentosJS/dom/galeria.html">Galeria</a></li>
+            <li><a href="./FundamentosJS/dom/tareas.html">Tareas</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <img src="./images/JS.jpg" width="100%" height="100%" alt="Proyectos JavaScript">
+    </main>
+</body>
+</html>
